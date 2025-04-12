@@ -1,7 +1,0 @@
-
-RewriteOptions inherit
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^arvmedicines\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.arvmedicines\.com$
-RewriteRule ^/?$ "https\:\/\/www\.heterohealthcare\.com\/arv\-division\-products" [R=301,L]
